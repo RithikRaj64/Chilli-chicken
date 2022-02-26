@@ -1,6 +1,7 @@
-@media screen and (max-width: 600px){
+@media screen only and (max-width: 600px){
 	body{
 		margin:0px;
+		font-size: 20px;
 	}
 }
 

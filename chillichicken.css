@@ -1,8 +1,14 @@
-body{
+@media screen and (min-width: 1600px){
+	body{
+		margin:350px;
+	}
+}
+
+/*body{
 	margin-left: 350px;
 	margin-right: 350px;
 	color: black;
-}
+}*/
 
 .mainh{
 	color: orangered;
@@ -44,13 +50,6 @@ padding: 5px;
 .gallery img{
 	width: 180px;
 	height: 150px;
-}
-
-@media screen only and (max-width: 600px){
-	body{
-		margin:0px;
-		font-size: 20px;
-	}
 }
 
 .nutrition{

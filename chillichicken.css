@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px){
 	body{
-		margin:600px;
+		margin: 0px;
+		color: violet;
 	}
 }
 

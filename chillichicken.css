@@ -5,10 +5,12 @@
 	}
 }
 
-body{
-	margin-left: 350px;
-	margin-right: 350px;
-	color: black;
+@media screen and (min-width: 600px){
+	 body{
+		margin-left: 350px;
+		margin-right: 350px;
+		color: black;
+	}
 }
 
 .mainh{

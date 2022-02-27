@@ -1,67 +1,129 @@
 @media screen and (max-width: 600px){
 	body{
-		margin: 0px;
-		color: violet;
+		margin-left: 35px;
+		margin-right: 35px;
+		color: black;
+	}
+	.mainh{
+		color: orangered;
+		font-family: cursive;
+		text-align: center;
+	}
+
+	#pc{
+		display: none;
+	}
+
+	div.gallery{
+		margin: 5px;
+		/*border: 3px solid #ccc;
+		border-radius: 30px;*/
+		float: left;
+	}
+
+	img.pic {
+		width: 300px;
+		height: 200px;
+		border-radius: 30px;
+		padding: 5px;
+	}
+
+	.facts{
+		clear: left;
+		position: relative;
+		top: 20px;
+	}
+
+	.main{
+		background-image:url("bg.jpeg");
+		background-size: cover;
+	}
+
+	.mainp{
+		align-content: center;
+		border-radius: 30px;
+	}
+
+	.gallery img{
+		width: 85px;
+		height: 70px;
+	}
+
+	.nutrition{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.nutrition th,td{
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 }
 
-@media screen and (min-width: 600px){
-	 body{
+@media screen and (min-width: 500px){
+	body{
 		margin-left: 350px;
 		margin-right: 350px;
 		color: black;
 	}
-}
 
-.mainh{
-	color: orangered;
-	font-family: cursive;
-	position: relative;
-	left: 270px;
-}
 
-div.gallery{
-margin: 5px;
-border: 3px solid #ccc;
-border-radius: 30px;
-float: left;
-}
+	.mainh{
+		color: orangered;
+		font-family: cursive;
+		position: relative;
+		left: 100px;
+	}
 
-img.pic {
-width: 300px;
-height: 200px;
-border-radius: 30px;
-padding: 5px;
-}
+	#mob{
+		display: none;
+	}
 
-.facts{
-	clear: left;
-	position: relative;
-	top: 20px;
-}
-.main{background-image:url("bg.jpeg");
-	background-size: cover;
-}
-.mainp{
-	float: right;
-	position: relative;
-	top: 120px;
-	right: 50px;
-	border-radius: 30px;
-}
+	div.gallery{
+		margin: 5px;
+		border: 3px solid #ccc;
+		border-radius: 30px;
+		float: left;
+	}
 
-.gallery img{
-	width: 180px;
-	height: 150px;
-}
+	img.pic {
+		width: 300px;
+		height: 200px;
+		border-radius: 30px;
+		padding: 5px;
+	}
 
-.nutrition{
-	margin-left: auto;
-	margin-right: auto;
-}
+	.facts{
+		clear: left;
+		position: relative;
+		top: 20px;
+	}
 
-.nutrition th,td{
-	padding-left: 50px;
-	padding-right: 50px;
+	.main{
+		background-image:url("bg.jpeg");
+		background-size: cover;
+	}
 
+	.mainp{
+		float: right;
+		position: relative;
+		top: 120px;
+		right: 50px;
+		border-radius: 30px;
+	}
+
+	.gallery img{
+		width: 180px;
+		height: 150px;
+	}
+
+	.nutrition{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.nutrition th,td{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 }

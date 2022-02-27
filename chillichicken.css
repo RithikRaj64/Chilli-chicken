@@ -13,6 +13,10 @@
 	#pc{
 		display: none;
 	}
+	
+	#pcpic{
+		display: none;
+	}
 
 	div.gallery{
 		margin: 5px;
